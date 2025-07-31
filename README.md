@@ -16,7 +16,10 @@ Or run this in PowerShell or CMD:
 curl -L -o song_runner.zip https://github.com/ashoksuthar/song_runner/releases/download/v1.0/song_runner.zip
 ```
 
-⚙️ Step 2: Add to System PATH (Optional but Recommended)
+---
+
+
+## ⚙️ Step 2: Add to System PATH (Optional but Recommended)
 To use song <song_name> from any directory:
 
 Open System Properties → Environment Variables
@@ -27,25 +30,29 @@ Click “New” and add the full path to the song_runner folder
 
 Click OK to save and apply
 
+---
 
-▶️ Step 3: Run the Command
+
+## ▶️ Step 3: Run the Command
 Now you're ready to use the CLI! Open CMD or PowerShell and type:
 
-bash
-Copy
-Edit
-song kesariya
+```bash
+song panchayat title track
+```
 The tool will:
 
 🔍 Search YouTube for the best match
 
 ⬇️ Download the audio
 
-🎶 Convert it to MP3 using the included ffmpeg
+🎵 Convert it to MP3 using FFmpeg
 
-▶️ Play the song instantly!
+▶️ Play it in your terminal
+
+
 
 📌 Notes
+--
 ✅ No need to install Python or yt-dlp separately
 
 📦 All dependencies are included in the zip file
@@ -53,5 +60,7 @@ The tool will:
 🌐 Requires an active internet connection
 
 📬 Credits
+--
 Created with ❤️ by Ashok Suthar
+
 Powered by yt-dlp and FFmpeg
