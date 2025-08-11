@@ -26,7 +26,7 @@ Open System Properties → Environment Variables
 
 Under “System variables”, find and select Path, then click Edit
 
-Click “New” and add the full path to the song_runner folder
+Click “New” and add the full path to the song_player folder
 
 Click OK to save and apply
 
@@ -37,8 +37,9 @@ Click OK to save and apply
 Now you're ready to use the CLI! Open CMD or PowerShell and type:
 
 ```bash
-song panchayat title track
+song_player 
 ```
+then CMD ask you 🎧 Konsa gaana sunna hai? →
 The tool will:
 
 🔍 Search YouTube for the best match
