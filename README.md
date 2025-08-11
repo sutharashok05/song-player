@@ -8,12 +8,12 @@ Easily play or download your favorite YouTube songs right from your terminal usi
 
 Click the link below to download the latest `.zip` file:
 
-🔗 https://github.com/sutharashok05/song-player/releases/download/song_runner/song_runner.zip
+🔗 https://github.com/sutharashok05/song-player/releases/download/song_runner_v02/dist.zip
 
 Or run this in PowerShell or CMD:
 
 ```bash
-curl -L -o song_runner.zip https://github.com/sutharashok05/song-player/releases/download/song_runner/song_runner.zip
+curl -L -o dist.zip https://github.com/sutharashok05/song-player/releases/download/song_runner_v02/dist.zip
 ```
 
 ---
